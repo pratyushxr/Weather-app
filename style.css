@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' sans-serif;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    background: #222;
+
+}
+
+.Cards {
+    height: 34rem;
+    width: 25rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin-left: 35%;
+    margin-top: 4%;
+    border-radius: 1rem;
+}
+
+.navbtn1 input {
+    height: 2.7rem;
+    width: 17rem;
+    border-radius: 2rem;
+   padding-left: 1rem;
+    margin-top: 1.5rem;
+    border: 0;
+    outline: 0;
+
+}
+
+.nav {
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+.navbtn2 button{
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.searchGlass{
+        font-size: 2.5rem;
+        cursor: pointer;
+        margin: 25px 15px 15px;
+        padding: 0px;
+        color: white;
+    }
+
+.main img {
+    align-items: center;
+
+}
+
+.main h2,
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    height: 4rem;
+    width: 100%;
+    margin-top: 1rem;
+
+}
+
+.footer img {
+    height: 2rem;
+
+}
+
+.left {
+    display: flex;
+    flex-wrap: wrap;
+    width: 8rem;
+
+    align-items: center;
+}
+
+.left p {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.left h4 {
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+    font-size: 0.84rem;
+}
+
+.right {
+    width: 10rem;
+}
